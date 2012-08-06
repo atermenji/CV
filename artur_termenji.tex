@@ -1,0 +1,126 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+\moderncvstyle{classic}                        
+\moderncvcolor{purple}
+
+\usepackage[utf8]{inputenc} 
+\usepackage[scale=0.8]{geometry}
+\usepackage[pdftex,unicode]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+\firstname{Artur}
+\familyname{Termenji}
+\address{}{Donetsk, Ukraine}
+\mobile{+38 050 939 14 86}
+\email{atermenji@gmail.com}
+\extrainfo{Skype: godzillaunit}
+\photo[35pt][0.1pt]{photo.jpg}  
+
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+\begin{document}
+\makecvtitle
+
+\section{Education}
+\cventry
+	{2007--2012}
+	{MS at Computer Science}
+	{Donetsk National University}
+	{Donetsk, Ukraine}{}
+	{Area of study: Computer Science, Artificial Intelligence.}
+
+\section{Experience}
+\cventry
+	{May 2012--August 2012}
+	{Student Android developer}
+	{Catroid org. as part of Google Summer of Code 2012}
+	{}
+	{}
+	{Estimation of requirements for software development, time estimations.
+	\newline{} Software development and support.
+	\newline{} Software unit and functional testing.}
+\cventry
+	{July 2011--June 2012}
+	{Android developer}
+	{MLSDev}
+	{Donetsk, Ukraine}
+	{}
+	{Estimation of requirements for software development, time estimations.
+	\newline{} Software development and support.}
+
+\section{Skills}
+\subsection{Programming Languages}
+\cvline
+  	{Expert}{Java}
+\cvline
+  	{Basic}{C, C++, LaTeX}
+\subsection{Android}
+\cvline
+	{Android SDK}{Fragments API, Location API, SQLite, ContentProviders, Services, GoogleTV,
+	\newline{} AndroiHttpClient, Android unit and functional testing, Android NDK (basic) }
+\cvline 
+	{Frameworks and tools} {ActionBarSherlock, Robotium, custom UI components, OSMAnd, YandexMapKit}
+\subsection{Java}
+\cvline
+	{Core}{Java Core, Multithreading, Collections API, etc.}
+\cvline
+	{Java web}{JSP, Servlets, Hibernate (basic)}
+\cvline
+	{Other}{JUnit, JDBC, JDO}
+\cvline
+	{Application Servers}{Tomcat, Google App Engine}
+\subsection{Other}
+\cvline
+	{Core web}{XML, JSON, HTML/CSS (basic), HTPP}
+\cvline
+	{IDE}{Eclipse, NetBeans}
+\cvline
+	{OS}{Linux, Windows}
+\cvline
+	{VCS}{Git, Mercurial}
+\cvline
+	{Bug/Issue trackers, CI}{Redmine, Github issue tracker, Jenkins}
+\cvline
+	{Development Technics}{TDD, XP, Continuous Integration}
+
+\section{Languages}
+\cvitemwithcomment
+	{English}{Advanced}{}
+\cvitemwithcomment
+	{Russian}{Native}{}
+
+\section{Projects}
+\cvline
+    {Catroid}
+    {\url{http://catroid.org/}\newline{}
+    Android application for a visual programming inspired by MIT Scratch.
+    Participated in development during GSoC2012. Improved Catroid's UI according to Android guidelines. 
+    Created multi-pane UI using Fragments API.}
+\cvline
+    {AutoMoscow}
+    {\url{https://play.google.com/store/apps/details?id=com.goorin.automoscow}\newline{}
+    Android application that was developed using custom UI controls and custom SQLite database with ICU extenstion.}
+\cvline
+    {Ciar}
+    {\url{https://github.com/atermenji/Ciar}\newline{}
+    Android augmented reality browser for GoldenByte contest.}
+\cvline
+    {Viewdle Twitterizer}
+    {Android application which provides integration of face recognition and twitter API
+	using Viewdle Face Recognition SDK in augmented reality mode. Application was developed under 
+	the Viewdle Computer Vision Contest in Ukraine. Took 2nd prize in contest.}
+
+\section{Public activity}
+\cvline
+	{LinkedIn}{\url{http://www.linkedin.com/in/atermenji}}
+\cvline
+	{Github}{\url{https://github.com/atermenji}}
+\cvline
+	{Habrahabr}{\url{http://habrahabr.ru/users/ara89}}
+\cvline
+	{StackOverflow}{\url{http://stackoverflow.com/users/1494729/atermenji}}
+
+\end{document}
